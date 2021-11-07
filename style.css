@@ -1,0 +1,25 @@
+.heading{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width: 170px;
+    height: 150px;
+    font-size: 30px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px aqua;}
+    to{box-shadow: 1px 1px 38px greenyellow;}
+}
+
+
+.body{
+    background-color: aquamarine;
+}
+
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
